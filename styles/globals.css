@@ -245,11 +245,14 @@ text-align: end;
   margin:18px;
 }
 .footer-banner-image{
-  position: absolute;
-  /* top: -35%;
-  left: 8%; */
+  /* position: absolute;
   top: -25%;
-  left: 25%;
+  left: 25%; */
+  position: absolute;
+    height: 465px;
+    width: 465px;
+    top: -10%;
+    left: 33%;
 }
 .banner-desc .right{
   line-height: 1.4;
@@ -465,6 +468,7 @@ padding: 30px 65px;
 }
 .product-detail-desc p{
   margin-top: 10px;
+  
 }
 .reviews p{
   color: #324d67;
