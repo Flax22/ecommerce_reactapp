@@ -613,10 +613,11 @@ span.text-red {
     height: 560px;
   }
   .hero-banner-image {
-    width: 89%;
-    height: 62%;
-    top: 28%;
-    right: 1%;
+    width: 84%;
+    height: 58%;
+    top: 62%;
+    right: -37%;
+    transform: translate(-55%,-56%) rotate(-20deg);
   }
   .footer-banner-container {
     height: 560px;
@@ -657,16 +658,20 @@ span.text-red {
   }
   .hero-banner-container h1 {
     font-size: 50px;
+    margin-left: 0px;
   }
   .hero-banner-container h3 {
     font-size: 40px;
   }
   .hero-banner-container button {
-    margin-top: 264px;
+    
+    margin-top: 260px;
+    margin-left: -16px;
+
     z-index: 10000;
   }
   .desc {
-    bottom: 60px;
+    bottom: 24px;
   }
   .product-detail-container {
     flex-wrap: wrap;
